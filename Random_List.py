@@ -14,7 +14,7 @@ def random_code():
     print(random_code)
     random_word = listword[random_code]
     
-    print("Código Generado:  " + random_code)
+    print("Código Generado:  " + random_word)
         
 btn1 = Button(root,text="Generar Código", command = random_code)
 btn1.place(relx=0.5, rely=0.5, anchor=CENTER)
